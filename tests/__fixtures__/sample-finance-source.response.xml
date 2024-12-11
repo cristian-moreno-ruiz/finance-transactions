@@ -1,0 +1,41 @@
+<transactionList
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	version="1.0"
+	xsi:noNamespaceSchemaLocation="transactionList.xsd"
+>
+	<output>
+		<transaction 
+			date="2024-06-30T21:00:00" 
+			transaction_id="291" 
+			account_id="1234"
+			status="completed" 
+			title="Direct Debit"
+			description="Payment for Rent"
+			amount="-100.00"
+			currency="EUR"
+		>
+		</transaction>
+		<transaction 
+			date="2024-07-31T20:00:00"
+			transaction_id="1642"
+			account_id="1234"
+			status="completed"
+			title="Paycheck"
+			description="Payment for Salary"
+			amount="1000.00"
+			currency="EUR"
+		>
+		</transaction>
+		<transaction
+			date="2024-09-31T20:00:00"
+			transaction_id="1642"
+			account_id="1234"
+			status="pending"
+			title="Electricity Bill"
+			description="Payment for Electricity"
+			amount="-50.00"
+			currency="EUR"
+		>
+		</transaction>
+	</output>
+</transactionList>;

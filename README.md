@@ -13,7 +13,7 @@ The basic requirements that this application serve are:
 1. Clone this repository.
 2. Install dependencies: `npm install`
 3. Start the application (it will also start the database): `npm run start`
-4. You can now browse transaction, example: http://localhost:3000/transactions/search?from=2024-02-01&to=2024-07-03
+4. You can now browse transactions, example: http://localhost:3000/transactions/search?from=2024-02-01&to=2024-07-03
 5. Tests can be run with: `npm run test`
 
 ## Application Architecture
@@ -30,7 +30,7 @@ Hexagonal Architecture offers several key benefits by establishing clear boundar
 
 Following Hexagonal Architecture principles, the application defines 4 main ports which surround the core business logic. This diagram represents how the system has been designed:
 
-![image](https://github.com/user-attachments/assets/388c9002-808c-4a4d-ace0-f5a366cace46)
+![image](https://github.com/user-attachments/assets/3627baf3-6801-46a8-92dd-27b4597de815)
 
 Driver ports:
 - TransactionSearchPort: This port allows the application to serve user queries and return transactions based on search parameters.
@@ -95,7 +95,7 @@ The current codebase is designed with scalability in mind, both in terms of tech
 
 In addition to facilitating maintenance and scaling of the codebase, it is crucial to ensure performance requirements are met. In the following sections, several strategies will be discussed that help achieving the highest performance, resulting in a system diagram like the following:
 
-<img width="863" alt="image" src="https://github.com/user-attachments/assets/03345832-d288-4d8b-9eaf-c1ec8c066a6c">
+<img width="863" alt="image" src="https://github.com/user-attachments/assets/a295b786-34b3-48d9-8782-d0f7dc0677ca">
 
 ### Split the workloads
 

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SampleSource should fetch and parse XML data into TransactionModel objects 1`] = `
+[
+  {
+    "amount": -100,
+    "currency": "EUR",
+    "date": 2024-06-30T21:00:00.000Z,
+    "description": "Payment for Rent",
+    "externalAccountId": 1234,
+    "externalTransactionId": 291,
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "source": "SAMPLE_SOURCE",
+    "status": "COMPLETED",
+    "title": "Direct Debit",
+  },
+  {
+    "amount": 1000,
+    "currency": "EUR",
+    "date": 2024-07-31T20:00:00.000Z,
+    "description": "Payment for Salary",
+    "externalAccountId": 1234,
+    "externalTransactionId": 1642,
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "source": "SAMPLE_SOURCE",
+    "status": "COMPLETED",
+    "title": "Paycheck",
+  },
+  {
+    "amount": -50,
+    "currency": "EUR",
+    "date": 2024-10-01T20:00:00.000Z,
+    "description": "Payment for Electricity",
+    "externalAccountId": 1234,
+    "externalTransactionId": 1642,
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "source": "SAMPLE_SOURCE",
+    "status": "PENDING",
+    "title": "Electricity Bill",
+  },
+]
+`;
